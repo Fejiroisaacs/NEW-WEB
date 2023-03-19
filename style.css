@@ -11,11 +11,41 @@
     display: block;
     max-width: 50%;
     margin: auto;
+    font-size: auto;
+
 }
-.img {
+.my-text{
+  display: block;
+  max-width: 50%;
+  margin: auto;
+  font-size: auto;
+}
+.title{
+  display: block;
+  position: absolute;
+  margin: auto;   
+  margin-left: 15%;
+  
+}
+.title-project{
+  text-align: center;
+}
+.body{
+  margin: 100px;
+  background-color: black ;
+}
+.home_proj_img {
   width: 25%;
   height:auto;
+  border-radius: 5%;
   
+}
+.my_img{
+  width: 25%;
+  height:auto;
+  border-radius: 50%;
+  margin: auto;
+  margin-left: 15%;
 }
 .menu{
     position:fixed;
@@ -35,6 +65,7 @@
   height: auto;
   background-color: white;
   display: block;
+  margin: 0px;
   
 }
 .menuOptions {
@@ -59,7 +90,7 @@
     box-shadow: 0 0 5px black;
     transition: ease-in-out;
 }
-.footer{
+.footer-bottom{
     position: relative;
     bottom: 0px;
     width: 100%;
@@ -72,31 +103,59 @@
     font-style: italic;
 }
 
-.dropdown-content {
-  display: none;
-  background-color: transparent;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  color: black;
+.footer-social {
+  margin: auto;
+  margin-bottom: .5%;
+  font-size: 34px;
   text-align: center;
-  cursor: pointer;
-  position: relative;
 }
 
-.dropdown-content a {
-  display: block;
+.fa {
+  text-align: center;
+  color: whitesmoke;
   text-decoration: none;
-
+  width: 50px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 15px;
+}
+#facebook:hover {
+  background: #3b5998;
+  margin-top: .5px;
+  transition: ease-out .5s;
 }
 
+#instagram:hover {
+  background: linear-gradient(to top right, orange, red, purple);
+  margin-top: .5px;
+  transition: ease-in-out .5s;
+}
 
-
-#ddm:hover .dropdown-content {
+#twitter:hover {
+  background: #4c82f5;
+  margin-top: .5px;
+  transition: ease-in-out .5s;
+}
+#linkedin:hover {
+  background: #0077b5;
+  margin-top: .5px;
+  transition: ease-in-out .5s;
+}
+#whatsapp:hover {
+  background: #1ce45f;
+  margin-top: .5px;
+  transition: ease-in-out .5s;
+}
+.myproject{
   display: block;
-  position: absolute;
-  color: black;
+  padding: 15%;
 }
-
-.dropdown:hover #ddm {
-  background-color: #3e8e41;
+.project-link{
+  text-decoration: none;
+  color: blue;
+}
+.app{
+  width: auto;
+  height: auto;
+  border-style: 0px;
 }
